@@ -1,4 +1,4 @@
-﻿///// Настройка////
+﻿// Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 int size = 12;
 double[] array = new double[size];
 int num_min = 1;
@@ -7,15 +7,14 @@ int num_max = 99;
 double[] fill_array(int size, int min, int max)
 {
     double[] array_num = new double[size];
-    Random rand = new Random();
     for (int i = 0; i < array_num.Length; i++)
     {
-        array_num[i] =Math.Round(rand.NextDouble(min, max + 1),2);
+        array_num[i] =Math.Round(new Random().NextDouble(),2);
     }
     return array_num;
 }
 
-void print_array(int[] array_num)
+void print_array(double[] array_num)
 {
     string print = "";
     for (int i = 0; i < array_num.Length; i++)
