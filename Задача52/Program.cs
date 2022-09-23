@@ -1,4 +1,5 @@
-﻿int line = 3; int col = 3; int m = -9; int n = 9;
+﻿// Задача 52. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
+int line = 3; int col = 3; int m = -9; int n = 9;
 
 int[,] FillArray2(int line, int col, int min, int max)
 {

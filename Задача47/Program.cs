@@ -1,4 +1,5 @@
-﻿Console.Write("Введите кол-во строк ");
+﻿// Задача 47. Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.
+Console.Write("Введите кол-во строк ");
 int m = int.Parse(Console.ReadLine());
 Console.Write("Введите кол-во столбцов ");
 int n = int.Parse(Console.ReadLine());
