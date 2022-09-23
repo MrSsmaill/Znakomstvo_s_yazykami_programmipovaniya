@@ -1,4 +1,5 @@
-﻿void PrintArray2(int[,] matr)
+﻿// Задача 62. Напишите программу, которая заполнит спирально массив 4 на 4.
+void PrintArray2(int[,] matr)
 {
     for (int i = 0; i < matr.GetLength(0); i++)
     {

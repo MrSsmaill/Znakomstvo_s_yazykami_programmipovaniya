@@ -1,4 +1,5 @@
-﻿int[,] FillArray2(int line, int col, int min, int max)
+﻿// Задача 56: Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов.
+int[,] FillArray2(int line, int col, int min, int max)
 {
     int[,] matr = new int[line, col];
     for (int i = 0; i < matr.GetLength(0); i++)

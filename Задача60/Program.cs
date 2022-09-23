@@ -1,4 +1,5 @@
-﻿int[,,] FillArray3(int line, int col, int height, int min, int max)
+﻿// Задача 60. ...Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. Напишите программу, которая будет построчно выводить массив, добавляя индексы каждого элемента.
+int[,,] FillArray3(int line, int col, int height, int min, int max)
 {
     int[,,] matr = new int[line, col, height];
     for (int i = 0; i < matr.GetLength(0); i++)

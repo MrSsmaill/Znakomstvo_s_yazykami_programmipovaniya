@@ -1,4 +1,5 @@
-﻿int[,] FillArray2(int line, int col, int min, int max)
+﻿// Задача 54: Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
+int[,] FillArray2(int line, int col, int min, int max)
 {
     int[,] matr = new int[line, col];
     for (int i = 0; i < matr.GetLength(0); i++)

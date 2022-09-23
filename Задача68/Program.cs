@@ -1,4 +1,5 @@
-﻿Console.Write("Введите число n: ");
+﻿// Задача 68: Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
+Console.Write("Введите число n: ");
 UInt64 n = Convert.ToUInt64(Console.ReadLine());
 Console.Write("Введите число m: ");
 UInt64 m = Convert.ToUInt64(Console.ReadLine());
