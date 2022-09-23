@@ -1,4 +1,5 @@
-﻿Console.Write("Введите число ");
+﻿// Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+Console.Write("Введите число ");
 int number = int.Parse(Console.ReadLine());
 
 void SunNumber(int num)
