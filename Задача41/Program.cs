@@ -1,4 +1,5 @@
-﻿Console.Write("Введите числа через пробел ");
+﻿// Задача 41: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
+Console.Write("Введите числа через пробел ");
 string[] st = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
 void AboveZero(string[] st)
